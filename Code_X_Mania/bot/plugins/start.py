@@ -35,7 +35,7 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By @Anime_Headquarter",
+                    text="I am coded by @Anime_Headquarters \n Developer : @Damon_Salvatore_VD",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
