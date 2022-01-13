@@ -19,7 +19,7 @@ kg18="ago"
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     return web.json_response({"status": "running",
-                              "maintained_by": "@Rubandurai27",
+                              "maintained_by": "@Anime_Headquaters",
                               "uptime": get_readable_time(time.time() - StartTime),
                               "Major updates were pushed": get_readable_time(time.time())+"  ago",
                               "telegram_bot": '@'+(await StreamBot.get_me()).username,
